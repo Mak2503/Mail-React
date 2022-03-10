@@ -30,10 +30,15 @@
   background-color: rgb(199 224 244);
 }
 
-.mail {
-  width: 25%;
+.mail-section {
+  width: 100%;
   padding-top: 10px;
+  display: flex;
   border-left: 1px solid gray;
+}
+
+.mail {
+  width: 30%;
 }
 
 .mail-filter {
@@ -69,3 +74,23 @@
   padding: 2.5px 0px;
 }
 
+.mails {
+  width: 70%;
+  border-left: 1px solid gray;
+  padding: 20px;
+}
+
+.mails-sub {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mails-card {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.mails-sender {
+  padding: 10px 0px;
+}
