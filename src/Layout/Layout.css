@@ -77,20 +77,27 @@
 .mails {
   width: 70%;
   border-left: 1px solid gray;
-  padding: 20px;
 }
 
 .mails-sub {
-  padding-bottom: 20px;
+  padding: 20px 0px;
+  padding-left: 20px;
   font-size: 20px;
   font-weight: bold;
 }
 
 .mails-card {
-  border: 1px solid gray;
-  padding: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px 20px;
 }
 
 .mails-sender {
   padding: 10px 0px;
+}
+
+.empty-mails {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 150px 100px;
 }
